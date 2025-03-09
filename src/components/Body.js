@@ -7,34 +7,65 @@ const Body = () => {
             {/* SECTION 1 --> CATCHY BANNER PICTURE WITH LEARN MORE AND CONTACT US */}
 
             <div 
-            className="pt-[5vh] h-[100vh] w-full bg-cover bg-center bg-no-repeat font-serif text-black"
+            className="pt-[2vh] h-[100vh] w-full bg-cover bg-center bg-no-repeat font-serif text-black"
             style={{ backgroundImage: "url('https://images.unsplash.com/photo-1590805156700-67b7bbab9001?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
         > {/* DIV FOR BACKGROUND BANNER -> GET ALL IMAGES OFF UPSPLASH */}    
 
-                    <div className="h-[40vh] mx-auto items-left justify-start pl-[15%] bg-gray-900 bg-opacity-30 rounded-lg">
-                        <div className="pt-[10vh] flex flex-col items-left ">
-                            <h1 className=" text-4xl font-bold">Modern Solutions Driving Innovation</h1>
-                            <p className="pt-[1vh] text-2xl">with AI integration, data management services,  
+                    <div className="h-[40vh] mx-auto items-left justify-start  ">
+                        <div className="pt-[10vh] flex flex-col items-center text-center ">
+                            <h1 className=" text-5xl font-bold">Modern Solutions Driving Innovation</h1>
+                            <p className="pt-[1vh] text-3xl">with AI integration, data management services,  
                                 and full stack solutions.
                             </p>
                         </div>
                         <div className="pt-[4vh]">
-                            <button className="w-[20vh] mr-[3vh] py-2 bg-orange-500 rounded-lg shadow-md hover:bg-orange-600 transition">
+                            {/* <button className="w-[20vh] mr-[3vh] py-2 bg-orange-500 rounded-lg shadow-md hover:bg-orange-600 transition ">
                                 Learn More
                             </button>
                             <button className="w-[20vh] px-4 py-2 bg-blue-500 rounded-lg shadow-md hover:bg-blue-600 transition">
                                 Contact Us
-                            </button>
+                            </button> */}
                         </div>
 
                     </div>
             </div>
 
 
-            <div className={`h-[100vh] bg-black`}>
-                {/* SECTION 2 --> CAPABILITIES */}
+            
+            <div>
+                <div className="pt-[3vh]" />
+                <div className=" w-full h-1 bg-black"></div>
+
+                <h1 className="text-5xl font-bold flex flex-col items-center text-center pb-[3vh] pt-[2vh]">ABOUT US
+                </h1>
+            </div>
+            <div className={`grid grid-cols-2`}>
+                {/* SET ASIDES AND CMMC CLEARENCE LEVEL ICONS */}
+                <div>
+
+                </div>
                 <div 
-            className="pt-[10vh] h-[100vh] w-4/5 mx-auto font-serif text-white"> {/* DIV FOR BACKGROUND BANNER -> GET ALL IMAGES OFF UPSPLASH */}    
+            className="pt-[30vh] h-[50vh] w-full bg-cover bg-center bg-no-repeat font-serif text-white"
+            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
+        ></div>
+        </div>
+
+        <div className={`h-[50vh] bg-white`}>
+            <div className={`grid grid-cols-3 items-center text-center`}>
+                <div className="">
+                    Set ASIDES
+                </div>
+                <div className="">
+                    Certifications
+                </div>
+                <div className="">
+                    Who We Serve
+                </div>
+            </div>
+        </div>
+        <div className={`h-[100vh] bg-black`}>
+                {/* SECTION 2 --> CAPABILITIES */}
+                <div className="pt-[10vh] h-[100vh] w-4/5 mx-auto font-serif text-white"> {/* DIV FOR BACKGROUND BANNER -> GET ALL IMAGES OFF UPSPLASH */}    
 
                     <div className="justify-start ">
                         <div className=" flex flex-col text-center">
@@ -61,23 +92,10 @@ const Body = () => {
                     </div>
                 </div> 
             </div>
-            
-            <div className={`h-[100vh] grid grid-cols-2`}>
-                {/* SET ASIDES AND CMMC CLEARENCE LEVEL ICONS */}
-                <div>
-
-                </div>
-                <div 
-            className="pt-[30vh] h-[100vh] w-full bg-cover bg-center bg-no-repeat font-serif text-white"
-            style={{ backgroundImage: "url('https://images.unsplash.com/photo-1590805156700-67b7bbab9001?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
-        ></div>
+            <div className={`h-[60vh] bg-black text-white`}>
+                    FOOTER FOOTER FOOTER FOOTER
             </div>
-            <div className={`h-[80vh] bg-black`}>
 
-            </div>
-            <div className={`h-[80vh] bg-white`}>
-
-            </div>
         </div>
     );
 }

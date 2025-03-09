@@ -4,7 +4,7 @@ import logo from '../img/logo.png'
 const navLinks = [
     { title: 'About', url: '/about' },
     { title: 'Services', url: '/services' },
-    { title: 'Contact', url: '/contact' }
+    { title: 'Contact Us', url: '/contact' }
 ];
 
 const bgColor = 'bg-white';
