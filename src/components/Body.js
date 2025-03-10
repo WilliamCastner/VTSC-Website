@@ -7,7 +7,7 @@ const Body = () => {
             {/* SECTION 1 --> CATCHY BANNER PICTURE WITH LEARN MORE AND CONTACT US */}
 
             <div 
-            className="pt-[2vh] h-[100vh] w-full bg-cover bg-center bg-no-repeat font-serif text-black"
+            className="pt-[2vh] h-[100vh] w-full bg-cover bg-center bg-no-repeat  text-black"
             style={{ backgroundImage: "url('https://images.unsplash.com/photo-1590805156700-67b7bbab9001?q=80&w=1954&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
         > {/* DIV FOR BACKGROUND BANNER -> GET ALL IMAGES OFF UPSPLASH */}    
 
@@ -33,55 +33,52 @@ const Body = () => {
 
             
             <div>
-                <div className="pt-[3vh]" />
-                <div className=" w-full h-1 bg-black"></div>
-
-                <h1 className="text-5xl font-bold flex flex-col items-center text-center pb-[3vh] pt-[2vh]">ABOUT US
+                <div className="pt-[2vh]" />
+                <h1 className="text-5xl font-bold flex flex-col items-center text-center pb-[3vh] pt-[2vh]">Who We Are
                 </h1>
             </div>
-            <div className={`grid grid-cols-2`}>
+            <div className={`grid grid-cols-[40%_2%_58%] h-[60vh]`}>
                 {/* SET ASIDES AND CMMC CLEARENCE LEVEL ICONS */}
-                <div>
-
-                </div>
                 <div 
-            className="pt-[30vh] h-[50vh] w-full bg-cover bg-center bg-no-repeat font-serif text-white"
+            className="ml-[10vh] w-[80%] pt-[30vh] h-[40vh]  bg-cover bg-center bg-no-repeat font-serif text-white"
             style={{ backgroundImage: "url('https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
         ></div>
+        <div>
+        <p className="text-2xl"> | -  </p> <br />
+                    <p className="text-2xl"> | -   </p> <br />
+                    <p className="text-2xl"> | -   </p> <br />
+                    <p className="text-2xl"> | -   </p> <br />
+                    <p className="text-2xl"> | - </p> <br /> 
+        </div>
+                <div className="w-full">
+                    <p className="text-2xl"> Family run business proud to be located in Ludlow, Vermont.  </p> <br />
+                    <p className="text-2xl"> Striving to achieve innovation through optimization.  </p> <br />
+                    <p className="text-2xl"> Self-assessed level 1 CMMC compliance.  </p> <br />
+                    <p className="text-2xl"> Over 20 years of experience developing software for the government  </p> <br />
+                    <p className="text-2xl"> Self Certified Small Disadvantaged Business, Economically Disadvantaged Women Small Owned Business.  </p> <br />
+
+                </div>
+                
         </div>
 
-        <div className={`h-[50vh] bg-white`}>
-            <div className={`grid grid-cols-3 items-center text-center`}>
-                <div className="">
-                    Set ASIDES
-                </div>
-                <div className="">
-                    Certifications
-                </div>
-                <div className="">
-                    Who We Serve
-                </div>
-            </div>
-        </div>
         <div className={`h-[100vh] bg-black`}>
                 {/* SECTION 2 --> CAPABILITIES */}
-                <div className="pt-[10vh] h-[100vh] w-4/5 mx-auto font-serif text-white"> {/* DIV FOR BACKGROUND BANNER -> GET ALL IMAGES OFF UPSPLASH */}    
+                <div className="pt-[10vh] h-[100vh] w-4/5 mx-auto text-white"> {/* DIV FOR BACKGROUND BANNER -> GET ALL IMAGES OFF UPSPLASH */}    
 
                     <div className="justify-start ">
                         <div className=" flex flex-col text-center">
-                            <h1 className=" text-4xl font-bold">Learning & Development, Talent Management,
-                            and Cloud-Based IT Solutions</h1>
+                            <h1 className=" text-4xl font-bold">What We Do</h1>
                             <div className="pt-[3vh] pb-[4vh] flex justify-center">
-                            <button className="w-[35vh] mr-[3vh] py-3 bg-blue-500 rounded-sm shadow-md hover:bg-blue-600 transition">
+                            <button className="w-[35vh] mr-[3vh] py-2 bg-yellow-900 rounded-sm shadow-md hover:bg-blue-600 transition">
                                     VTSC Capability Statement
                             </button>
                             </div>
 
                             <div className="grid grid-cols-2 gap-10">
-                                <div className="h-[20vh] bg-gray-970 ">Section 1</div>
-                                <div className="h-[20vh] bg-gray-970 ">Section 2</div>
-                                <div className="h-[20vh] bg-gray-970 ">Section 3</div>
-                                <div className="h-[20vh] bg-gray-970">Section 4</div>
+                                <div className="h-[20vh] bg-gray-970 ">What we do #1</div>
+                                <div className="h-[20vh] bg-gray-970 ">What we do #2</div>
+                                <div className="h-[20vh] bg-gray-970 ">What we do #3</div>
+                                <div className="h-[20vh] bg-gray-970 ">What we do #4</div>
                             </div>
                             
 
