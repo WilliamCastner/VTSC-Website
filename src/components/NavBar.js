@@ -23,7 +23,7 @@ const Navbar = () => {
 
                 <ul className="absolute left-[75%] transform -translate-x-1/2 flex gap-4 md:gap-12 items-center text-center cursor-pointer">
                     {navLinks.map((link, index) => (
-                        <li key={index} className="text-black text-md">
+                        <li key={index} className="text-black text-md hover:text-gray-600">
                             <Link to={link.url}>
                                 {link.title}
                             </Link>
@@ -36,15 +36,15 @@ const Navbar = () => {
                         onMouseEnter={() => setIsServicesHovered(true)}
                         onMouseLeave={() => setIsServicesHovered(false)}
                     >
-                        <span>Services</span>
+                        <span className='hover:text-gray-600'>Services</span>
                         
                         {isServicesHovered && (
                             <ul className="absolute left-0 top-full bg-white shadow-lg p-2">
                                 <li className="p-2">
-                                    <Link to="/software-development" className="block text-black">Software Development</Link>
+                                    <Link to="/software-development" className="block text-black hover:text-gray-600">Software Development</Link>
                                 </li>
                                 <li className="p-2">
-                                    <Link to="/ai-research" className="block text-black">AI Research</Link>
+                                    <Link to="/ai-research" className="block text-black hover:text-gray-600">AI Research</Link>
                                 </li>
                             </ul>
                         )}
