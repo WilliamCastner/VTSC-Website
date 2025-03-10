@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 // import background from '../img/mansfield.jpg'
 
 const Body = () => {
@@ -61,7 +61,7 @@ const Body = () => {
                 
         </div>
 
-        <div className={`h-[100vh] bg-black`}>
+        <div className={`h-[95vh] bg-black`}>
                 {/* SECTION 2 --> CAPABILITIES */}
                 <div className="pt-[10vh] h-[100vh] w-4/5 mx-auto text-white"> {/* DIV FOR BACKGROUND BANNER -> GET ALL IMAGES OFF UPSPLASH */}    
 
@@ -88,7 +88,7 @@ const Body = () => {
                                     <p> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pa</p></div>
                             </div>
                             
-                            <div className="pt-[3vh] pb-[5vh] flex justify-center">
+                            <div className="pt-[3vh] flex justify-center">
                             <button className="w-[35vh] mr-[3vh] py-2 bg-yellow-900 rounded-sm shadow-md hover:bg-yellow-600 transition">
                                     VTSC Capability Statement
                             </button>
@@ -100,10 +100,6 @@ const Body = () => {
                     </div>
                 </div> 
             </div>
-            <div className={`h-[60vh] bg-black text-white`}>
-                    FOOTER FOOTER FOOTER FOOTER
-            </div>
-
         </div>
     );
 }

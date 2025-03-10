@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const Capability = () => {
     return (
-        <h1>ASDASDSADASDSA</h1>
+        <h1>CAPABILITY STATEMENT HERE</h1>
     );
 }
 
