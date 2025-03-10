@@ -66,22 +66,33 @@ const Body = () => {
                 <div className="pt-[10vh] h-[100vh] w-4/5 mx-auto text-white"> {/* DIV FOR BACKGROUND BANNER -> GET ALL IMAGES OFF UPSPLASH */}    
 
                     <div className="justify-start ">
-                        <div className=" flex flex-col text-center">
-                            <h1 className=" text-4xl font-bold">What We Do</h1>
-                            <div className="pt-[3vh] pb-[4vh] flex justify-center">
-                            <button className="w-[35vh] mr-[3vh] py-2 bg-yellow-900 rounded-sm shadow-md hover:bg-blue-600 transition">
+                        <div className=" flex flex-col text-center ">
+                            <h1 className=" text-4xl font-bold pb-[5vh]">What We Do</h1>
+
+
+                            <div className="grid grid-cols-2 gap-8 pb-[9vh]">
+                                <div className="h-[20vh] bg-gray-970 ">
+                                    <h1 className= "text-2xl">Practical data analysis optimized through AI</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </p>
+                                    </div>
+                                <div className="h-[20vh] bg-gray-970">
+                                    <h1 className="text-2xl">Custom Software Development</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </p>
+                                    </div>
+                                <div className="h-[20vh] bg-gray-970 ">
+                                <h1 className="text-2xl">Software acquisition and training</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis </p>
+                                </div>
+                                <div className="h-[20vh] bg-gray-970">
+                                    <h1 className="text-2xl">Using AI to boost government agency's efficiency</h1>
+                                    <p> sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pa</p></div>
+                            </div>
+                            
+                            <div className="pt-[3vh] pb-[5vh] flex justify-center">
+                            <button className="w-[35vh] mr-[3vh] py-2 bg-yellow-900 rounded-sm shadow-md hover:bg-yellow-600 transition">
                                     VTSC Capability Statement
                             </button>
                             </div>
-
-                            <div className="grid grid-cols-2 gap-10">
-                                <div className="h-[20vh] bg-gray-970 ">What we do #1</div>
-                                <div className="h-[20vh] bg-gray-970 ">What we do #2</div>
-                                <div className="h-[20vh] bg-gray-970 ">What we do #3</div>
-                                <div className="h-[20vh] bg-gray-970 ">What we do #4</div>
-                            </div>
-                            
-
                             
                         </div>
 
